@@ -3,7 +3,7 @@ body{
     /* font-family: 'Poppins', sans-serif; */
     font-family: 'Source Serif Pro', serif;
 }
-.intro, .projects {
+.intro, .projects, .quick-access {
     margin: auto;
     padding: 100px 0 0;
     width: 1200px;
@@ -33,7 +33,7 @@ body{
 }
 .project-text {
     overflow: hidden;
-    width: 40%;
+    width: 50%;
     padding-left: 10%;
 }
 .intro-text p, .project-text p {
@@ -43,6 +43,32 @@ body{
 .intro-photo {
     width: 40%;
     overflow: hidden;
+}
+section.mission h1 {
+    font-size: 50px;
+    text-align: center;
+}
+.quick-access {
+    display: flex;
+}
+.qc {
+    width: 30%;
+    margin-right: 4%;
+    padding: 3%;
+    height: 350px;
+    border-radius: 20px;
+}
+.qc_one{
+    background: #EDF5F6;
+}
+.qc_two{
+    background: #FFEEEE;
+}
+.qc_three{
+    background: #FFF4D6;
+}
+.qc img {
+    width: 50%;
 }
 .projects-photo {
     width: 40%;
