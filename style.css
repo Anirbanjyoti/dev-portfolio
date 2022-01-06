@@ -1,9 +1,8 @@
 body{
     margin: 0;
-    /* font-family: 'Poppins', sans-serif; */
     font-family: 'Source Serif Pro', serif;
 }
-.intro, .projects, .quick-access {
+.intro, .projects, .quick-access, .hire {
     margin: auto;
     padding: 100px 0 0;
     width: 1200px;
@@ -23,20 +22,33 @@ body{
     position: absolute;
     visibility: visible;
 }
-.intro-heading h1, .global-heading  h1, .project-heading h1 {
+.intro-heading h1, .global-heading  h1, .project-heading h1, .call h1 {
     font-size: 60px;
     margin: 0;
 }
-.intro-text {
+.intro-text, .call {
     width: 50%;
     float: left;
 }
-.project-text {
+.hire-bg {
+    width: 40%;
+    float: left;
+}
+.project-text, .call {
     overflow: hidden;
+    min-height: 400px;
     width: 50%;
     padding-left: 10%;
 }
-.intro-text p, .project-text p {
+.call {
+    padding-top: 70px;
+}
+.hire-bg img {
+    width: 80%;
+    border-radius: 300px 100px 100px 100px;
+    box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 12%);
+}
+.intro-text p, .project-text, .call p {
     font-size: 23px;
     line-height: 1.5;
 }
@@ -76,7 +88,6 @@ section.mission h1 {
     background: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-size: 247px;
-    /* position: absolute; */
     height: 300px;
     background-position: left 0 top 50px;
 }
@@ -89,7 +100,6 @@ section.mission h1 {
 .intro-photo img {
     width: auto;
     height: 500px;
-    /* right: 15%; */
     top: 50px;
     position: absolute;
 }
@@ -98,7 +108,6 @@ section.mission h1 {
     background-repeat: no-repeat;
     background-size: 198px;
     background-position: bottom 0 right 35px;
-    /* top: 36px; */
     height: 560px;
 }
 .global-photo img {
@@ -106,12 +115,12 @@ section.mission h1 {
     height: 480px;
     right: 15%;
     top: -40px;
-    /* position: absolute; */
 }
-.explore{
+.explore {
     padding: 15px 40px;
-    background: #e9561b;
+    background: #FF5959;
     color: #ffffff;
+    text-decoration: none;
     border-radius: 5px;
     border: 0;
 }
