@@ -27,7 +27,7 @@ body{
     margin: 0;
 }
 .intro-text, .call {
-    width: 50%;
+    width: 52%;
     float: left;
 }
 .hire-bg {
@@ -107,7 +107,7 @@ section.mission h1 {
     background: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-size: 198px;
-    background-position: bottom 0 right 35px;
+    background-position: bottom 0 right 15px;
     height: 560px;
 }
 .global-photo img {
