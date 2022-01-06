@@ -73,9 +73,18 @@ section.mission h1 {
 .projects-photo {
     width: 40%;
     float: left;
+    background: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 247px;
+    /* position: absolute; */
+    height: 300px;
+    background-position: left 0 top 50px;
 }
 .projects-photo img {
-    width: 100%;
+    width: 27%;
+    position: absolute;
+    height: auto;
+    padding-left: 90px;
 }
 .intro-photo img {
     width: auto;
@@ -87,9 +96,10 @@ section.mission h1 {
 .global-photo {
     background: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
-    background-size: 200px;
-    background-position: bottom right;
+    background-size: 198px;
+    background-position: bottom 0 right 35px;
     /* top: 36px; */
+    height: 560px;
 }
 .global-photo img {
     width: auto;
