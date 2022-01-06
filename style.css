@@ -42,6 +42,7 @@ body{
 }
 .call {
     padding-top: 70px;
+    border-top: 2px solid;
 }
 .hire-bg img {
     width: 80%;
