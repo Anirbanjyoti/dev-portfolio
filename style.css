@@ -3,13 +3,13 @@ body{
     /* font-family: 'Poppins', sans-serif; */
     font-family: 'Source Serif Pro', serif;
 }
-section.intro {
+.intro, .projects {
     margin: auto;
-    padding: 100px 0;
+    padding: 100px 0 0;
     width: 1200px;
     height: 600px;
 }
-.intro-heading {
+.intro-heading{
     padding-left: 15px;
 }
 .intro-heading:before {
@@ -23,7 +23,7 @@ section.intro {
     position: absolute;
     visibility: visible;
 }
-.intro-heading  h1 {
+.intro-heading h1, .global-heading  h1, .project-heading h1 {
     font-size: 60px;
     margin: 0;
 }
@@ -31,7 +31,12 @@ section.intro {
     width: 50%;
     float: left;
 }
-.intro-text p {
+.project-text {
+    overflow: hidden;
+    width: 40%;
+    padding-left: 10%;
+}
+.intro-text p, .project-text p {
     font-size: 23px;
     line-height: 1.5;
 }
@@ -39,12 +44,29 @@ section.intro {
     width: 40%;
     overflow: hidden;
 }
+.projects-photo img {
+    width: 100%;
+}
 .intro-photo img {
     width: auto;
-    height: 550px;
+    height: 500px;
+    /* right: 15%; */
+    top: 50px;
+    position: absolute;
+}
+.global-photo {
+    background: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: bottom right;
+    /* top: 36px; */
+}
+.global-photo img {
+    width: auto;
+    height: 480px;
     right: 15%;
     top: -40px;
-    position: absolute;
+    /* position: absolute; */
 }
 .explore{
     padding: 15px 40px;
@@ -52,4 +74,10 @@ section.intro {
     color: #ffffff;
     border-radius: 5px;
     border: 0;
+}
+footer {
+    text-align: center;
+    background: #000;
+    color: #fff;
+    padding: 15px 0;
 }
